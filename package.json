@@ -1,0 +1,13 @@
+{
+  "name": "hrm-redesign",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
+    "build": "npx tailwindcss -o build.css --minify"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.2.7"
+  }
+}
