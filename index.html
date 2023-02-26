@@ -1,15 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HRM</title>
-    <link href="/dist/output.css" rel="stylesheet">
-</head>
-<body>
-    <h1 class="text-3xl font-bold underline">
-        Hello world!
-      </h1>
-</body>
+    <link href="/dist/output.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="flex flex-col h-screen">
+      <header class="h-20 bg-green-200">Header</header>
+      <!-- If you want to change the sidebar direction then you can simply add flex-row-reverse class -->
+      <div class="flex h-full"> 
+        <aside class="w-1/4 bg-indigo-100">Siderbar</aside>
+        <main class="flex-auto bg-sky-200">Content</main>
+      </div>
+      <footer class="p-2 bg-gray-800 text-white text-center">&copy; 2023 - All rights reserved | Footer</footer>
+    </div>
+  </body>
 </html>
